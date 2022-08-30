@@ -1,0 +1,235 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  --bs-link-hover-color: white;
+}
+
+h4 {
+  color: #F1E9E4;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/*************************Nav Bar********************************/
+.navbar {
+  --bs-navbar-hover-color: white;
+}
+
+.nav-link:hover {
+  background-color: #D9BBAF;
+}
+
+.dropdown-menu {
+  --bs-dropdown-link-hover-color: white;
+  --bs-dropdown-link-hover-bg: #D9BBAF;
+}
+
+.offcanvas {
+  background: #F2E9E4;
+}
+
+/*************************Nav 2********************************/
+
+.list-group {
+  --bs-list-group-action-hover-color: white;
+  --bs-list-group-action-hover-bg: #D9BBAF;
+}
+
+/*************************footer Div********************************/
+
+footer {
+  background-color: #483527;
+  color: #c9cdd6;
+}
+
+/*************************HOME********************************/
+/*************************first Div********************************/
+
+#Home h1 {
+  color: black;
+  font-family: 'Tangerine', cursive;
+}
+
+#Home p {
+  color: black;
+}
+
+@media only screen and (max-width: 1000px){
+  .home {
+    background-color: hsl(21, 35%, 92%, 0.75);
+  }
+}
+
+/*************************second Div********************************/
+#About {
+  background-color: #D9BBAF;
+}
+
+/*************************third Div********************************/
+#Motto {
+  background-color: #F2E9E4;
+}
+
+#Motto h1 {
+  color: #DBB36D;
+}
+
+#Motto i {
+  color: #DBB36D;
+}
+
+/*************************fourth Div********************************/
+#Comments {
+  background-color: #BFB4A1;
+}
+
+/*************************Fifth Div********************************/
+#Sourses {
+  background-color: #CFCDCE;
+}
+
+/*************************RESUME********************************/
+
+.info-list {
+  list-style-type: none;
+}
+
+.btn {
+  background-color: #DBB36D;
+  color: white;
+}
+
+/*************************First Div********************************/
+#Profile {
+  background-color: #D9BBAF;
+}
+
+#Profile strong {
+  color: white;
+}
+
+#Profile span {
+  display: block;
+}
+
+.box {
+  border: 1px solid white;
+  display: inline-block;
+}
+
+/*************************Second Div********************************/
+#Abilities {
+  background-color: #F2E9E4;
+}
+
+#Abilities h4 {
+  color: white;
+}
+
+.ab:hover {
+  background-color: hsl(22, 18%, 88%);
+}
+
+ul>li:hover .ability-score .bi {
+  transition: all 0.3s;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.fill-yes {
+  color: #DBB36D;
+}
+
+.fill-no {
+  color: white;
+}
+
+.load .ab:hover {
+  background-color: transparent;
+  transform: scale(1.05);
+}
+
+.progress {
+  --bs-progress-bg: white;
+  --bs-progress-bar-bg: #DBB36D;
+}
+
+/*************************Third Div********************************/
+#Background {
+  background-color: #CFCDCE;
+}
+
+.timeline-ico {
+  color: white;
+  background: rgb(49, 49, 49);
+}
+
+.timeline-header p {
+  color: rgb(136, 136, 136);
+}
+
+.timeline-content h4 {
+  color: grey;
+}
+
+/*************************Contact********************************/
+
+#Contact {
+  background-color: #f2e9e4;
+}
+
+#Contact h4{
+ color: white;
+}
+
+.contact{
+  background-color: hsl(21, 35%, 92%, 0.75);
+}
+
+input {
+  background-color: transparent;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+}
+
+input:focus{
+  border: 2px solid white;
+}
+
+textarea {
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 2px solid white;
+  resize: none;
+}
+
+input[type="submit"] {
+  background-color: #DBB36D;
+  border-bottom: none;
+  color: white;
+}
+
+input[type="submit"]:focus {
+  border: none;
+}

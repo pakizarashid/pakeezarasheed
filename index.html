@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!--- Basic Page Needs -->
+  <meta charset="utf-8">
+  <title>Pakeeza Rasheed</title>
+  <meta name="description" content="">
+  <meta name="author" content="_alizaahmad_">
+  <!--- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!--- Bootstrap -->
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!--- Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/dc24d3561a.js" crossorigin="anonymous"></script>
+  <!--- Css -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/media-queries.css">
+  <style>
+    #Home {
+      background-image: url('images/background.jpg');
+      background-attachment: fixed;
+          background-size: cover;
+    }
+
+    @media(max-width: 1000px) {
+      #Home {
+        background-image: url('images/background.png');
+
+      }
+    }
+
+    @media(max-width: 400px) {
+      #Home {
+        background-image: url('images/backgroundsp.png');
+      }
+    }
+  </style>
+  <!--- Icon -->
+  <link rel="icon" href="favicon_io/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!--- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Tangerine&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <section id="Navbar">
+    <nav class="navbar navbar-expand-lg fixed-top" aria-label="Offcanvas navbar large">
+      <div class="nav container-fluid">
+        <a class="nav navbar-brand" href="index.html">
+          <img src="favicon_io/logo.png" alt="PR" width="180">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offNavbar" aria-controls="offNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="nav offcanvas offcanvas-end" tabindex="-1" id="offNavbar">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offNavbarLabel">Pakeeza Rasheed</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resume.html">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle disabled" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Projects</a></li>
+                  <li><a class="dropdown-item" href="#">Pricing</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <a class="rounded-circle nav-btn vis" data-bs-toggle="collapse" href="#list-example" aria-controls="navbar">
+      🔍
+    </a>
+    <div id="list-example" class="collapse list-group">
+      <a class="list-group-item list-group-item-action na nav-link" href="#Home">Home</a>
+      <a class="list-group-item list-group-item-action na nav-link" href="#About">About</a>
+      <a class="list-group-item list-group-item-action na nav-link" href="#Motto">Motto</a>
+      <a class="list-group-item list-group-item-action na nav-link" href="#Comments">Reviews</a>
+      <a class="list-group-item list-group-item-action na nav-link" href="#Sourses">Software</a>
+    </div>
+
+  </section>
+
+  <section id="Home">
+    <div class="main">
+      <div class="home">
+        <h1>Pakeeza Rasheed</h1>
+        <p>Coder | Student</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="About">
+    <div class="main">
+      <h4>ABOUT</h4>
+      <h1>Let me introduce myself</h1>
+      <div class="div-center">
+        <img src="images/about.png" alt="Self">
+        <p>I am a hardworking and ambitious individual with a great passion for information technology and the
+          computer industry. I am currently in my third year of studying Bs in Computer Science at GCUF. I
+          have excellent communication skills, enabling me to effectively communicate with a wide range of
+          people.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="Motto">
+    <div class="main">
+      <div class="row">
+        <div class="col-4 col-padding">
+          <i class="fa-regular fa-hand-back-fist fa-2xl fa-bounce"></i>
+          <h1>Believe</h1>
+          <p>It is the Power of <strong>Belief</strong> that causes things to happen in our lives.</p>
+        </div>
+        <div class="col-4 col-padding">
+          <i class="fa-solid fa-hand-holding-hand fa-2xl fa-fade"></i>
+          <h1>in</h1>
+          <p>To acquire true power you have to feel <strong>beneath</strong> no one, be immune to criticism and be fearless.</p>
+        </div>
+        <div class="col-4 col-padding">
+          <i class="fa-solid fa-hands-holding fa-2xl fa-flip"></i>
+          <h1>Yourself</h1>
+          <p>You can change the world by being <strong>yourself</strong>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Comments">
+    <div class="main">
+      <h4>REVIEW</h4>
+      <h1>Let me know about us.</h1>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner div-center">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="images/88.jpg" class="d-block" alt="user">
+            <h3>_alizaahmad_</h3>
+            <i class="bi bi-star-fill fill-yes"> </i>
+            <i class="bi bi-star-fill fill-yes"> </i>
+            <i class="bi bi-star-fill fill-yes"> </i>
+            <i class="bi bi-star-fill fill-yes"> </i>
+            <i class="bi bi-star-fill fill-yes"> </i>
+            <br>
+            <p>"Salam Ma'am, Your work is so good I like Your articles writing your writing is so clear I liked it you are a great writer. I appreciate your work"</p>
+          </div>
+          <div class="carousel-item" data-bs-interval="4000">
+            <img src="images/47.jpg" class="d-block" alt="user">
+            <h3>_joni_</h3>
+            <i class="bi bi-star-fill fill-yes"> </i>
+            <i class="bi bi-star-fill fill-yes"> </i>
+            <i class="bi bi-star-fill fill-yes"> </i>
+            <i class="bi bi-star-fill fill-yes"> </i>
+            <p>"Hey, very nice site. I came across this on Google, and I am stoked that I did. I will definitely be coming back here more often."</p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="Sourses">
+    <div class="main">
+      <h4>SOURSES</h4>
+      <h1>Let me introduce my helpers</h1>
+      <div class="row div-center">
+        <div class="col-3 col-padding">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" alt="HTML5">
+        </div>
+        <div class="col-3 col-padding">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="CSS3">
+        </div>
+        <div class="col-3 col-padding">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript">
+        </div>
+        <div class="col-3 col-padding">
+          <img src="https://cdn-icons.flaticon.com/png/512/720/premium/720251.png?token=exp=1660374756~hmac=50190d7c1b98e8eab08b40b31dda64bb" alt="Android Studio">
+        </div>
+        <div class="col-3 col-padding">
+          <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" alt="C++">
+        </div>
+        <div class="col-3 col-padding">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python">
+        </div>
+        <div class="col-3 col-padding">
+          <img src="https://cdn-icons-png.flaticon.com/512/888/888867.png" alt="Microsoft Office">
+        </div>
+        <div class="col-3 col-padding">
+          <img src="https://cdn-icons-png.flaticon.com/512/6124/6124995.png" alt="Linux">
+        </div>
+      </div>
+  </section>
+
+  <footer>
+      <div class="main">
+        <p class="footer">
+          <span>Edit by Pakeeza Rasheed</span>
+          |
+          <span>©Copyright 2022 Aliza Ahmed</span>
+        </p>
+      </div>
+  </footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>

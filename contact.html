@@ -1,0 +1,118 @@
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+
+ <head>
+   <!--- Basic Page Needs -->
+   <meta charset="utf-8">
+   <title>Contact Pakeeza</title>
+   <meta name="description" content="">
+   <meta name="author" content="_alizaahmad_">
+   <!--- Mobile Specific Metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <!--- Bootstrap -->
+   <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+   <!--- Script -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+   <!--- Css -->
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <style>
+     #Contact .main {
+       background-image: url('images/contact-main.jpg');
+       background-size: cover;
+       background-attachment: fixed;
+     }
+
+     @media (max-width: 1000px) {
+       #Contact .main {
+         background-image: url('images/contact.png');
+         background-size: none;
+       }
+     }
+   </style>
+   <!--- Icon -->
+   <link rel="icon" href="favicon_io/favicon.ico">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   <!--- Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Tangerine&display=swap" rel="stylesheet">
+ </head>
+
+ <body>
+   <section id="Navbar">
+     <nav class="navbar navbar-expand-lg fixed-top" aria-label="Offcanvas navbar large">
+       <div class="nav container-fluid">
+         <a class="nav navbar-brand" href="index.html">
+           <img src="favicon_io/logo.png" alt="PR" width="180">
+         </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offNavbar" aria-controls="offNavbar">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="nav offcanvas offcanvas-end" tabindex="-1" id="offNavbar">
+           <div class="offcanvas-header">
+             <h5 class="offcanvas-title" id="offNavbarLabel">Pakeeza Rasheed</h5>
+             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+           </div>
+           <div class="offcanvas-body">
+             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="resume.html">Resume</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="contact.html">Contact</a>
+               </li>
+               <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle disabled" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Services
+                 </a>
+                 <ul class="dropdown-menu">
+                   <li><a class="dropdown-item" href="#">Projects</a></li>
+                   <li><a class="dropdown-item" href="#">Pricing</a></li>
+                 </ul>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </div>
+     </nav>
+   </section>
+
+   <section id="Contact">
+     <div class="main">
+       <div class="contact">
+         <h4>CONTACT</h4>
+         <h1>I'd Love To Connect With You.</h1>
+         <p>Let me get to know more about you.</p>
+         <hr class="new-hr">
+         <form action="mailto:aliza.ahmed83@gmail.com" target="_self" method="post" enctype="text/plain" class="col-padding">
+           <div class="text-left">
+             <label>Your Name:</label>
+             <input type="text" name="Name:">
+             <label>Your Email:</label>
+             <input type="email" name="Email:" required>
+           </div>
+           <textarea name="message" value="Message"> Message: </textarea>
+           <br><br>
+           <input type="submit" value="SEND">
+       </div>
+     </div>
+   </section>
+
+   <footer>
+     <div class="main">
+       <a href="https://twitter.com/PakizaRashid"><i class="bi bi-twitter"></i></a>
+       <a href="https://www.linkedin.com/in/pakeezarasheed/"><i class="bi bi-linkedin"></i></a>
+       <a href="https://www.instagram.com/_alizaahmad_/"><i class="bi bi-instagram"></i></a>
+       <a href="https://www.youtube.com/channel/UCSLOVcM6hXOF6zCEy3Rv0Mg"><i class="bi bi-youtube"></i></a>
+       <p class="footer con">Edit by Pakeeza Rasheed | ©Copyright 2022 Aliza Ahmed</p>
+     </div>
+   </footer>
+
+ </body>
+
+ </html>
